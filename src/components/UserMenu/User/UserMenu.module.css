@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  margin-right: 4px;
+}
+.name {
+  font-weight: 700;
+  margin-right: 12px;
+}
+.loading {
+  margin-top: 24px;
+  text-align: center;
+}
+.loadingText {
+  margin-left: 40px;
+}
