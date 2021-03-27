@@ -42,7 +42,7 @@ const loading = createReducer(initialState.contacts.loading, {
 });
 
 const filter = createReducer(initialState.contacts.filter, {
-    [changeFilter]: (_, action) => action.payload,
+   [changeFilter]: (_, action) => action.payload,
 });
 
 const error = createReducer(initialState.contacts.error, {

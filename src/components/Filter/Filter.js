@@ -17,10 +17,10 @@ export default function Filter() {
    
     return (
            < CSSTransition
-        in={ items.length >= 2 }
-    timeout = { 250}
-    classNames = { s }
-    unmountOnExit >
+                in={ items.length >= 2 }
+                timeout = { 250}
+                classNames = { s }
+                unmountOnExit >
         <div className={s.container}>
             <label className={s.labelFilter}>Find contacts by name
              <br />

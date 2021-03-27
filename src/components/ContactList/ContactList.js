@@ -12,7 +12,7 @@ import contactsSelectors from '../../redux/contacts/selectors';
 export default function ContactList() {
     const dispatch = useDispatch();
 
-    const contacts = useSelector(contactsSelectors.getAllContacts);
+    const contacts = useSelector(contactsSelectors.getFilterContacts);
     const error = useSelector(contactsSelectors.getContactsError);
 
    useEffect(() => {
